@@ -21,7 +21,7 @@ const counters = {
   counter: 0,
   catCounter: 0,
   answered: false,
-  answer: "",
+  answer: "?",
   lastClue: -1,
 };
 let categories = [];
@@ -128,7 +128,7 @@ function nextCategory() {
 function nextQA() {
   let clueArr = categories[counters.counter];
   if (counters.counter < 6 && !counters.answered) {
-    answerDiv.text("");
+    answerDiv.text("?");
     let clues = clueArr.clues;
     let randomClue = Math.floor(Math.random() * clues.length);
     // elimates duplicate clues
