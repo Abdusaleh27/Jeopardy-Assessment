@@ -1,0 +1,27 @@
+
+.card-header {
+  font-family: "Vina Sans", cursive;
+  font-size: 45px;
+}
+.question {
+  font-family: "Ysabeau", sans-serif;
+  font-size: 35px;
+}
+.answer {
+  font-family: 'Courgette', cursive;
+  font-size: 25px;
+  font-weight: bolder;
+  color: rgb(114, 18, 18);
+  transition:500ms;
+}
+.game-title {
+  font-weight: bolder;
+  color: rgb(200, 199, 199);
+}
+.modal-content {
+  background-color: #5e6868;
+}
+
+.hide-elements {
+  display: none;
+}
